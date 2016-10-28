@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    font-size: 16px;
+    line-height: 18px;
+    font-family: Georgia;
+}
+
+.wrapper{
+    width:900px;
+    margin: 0 auto;
+    background: #666 none repeat scroll 0 0;
+}
+
+.header,.footer-area{
+    background: #565656 none repeat scroll 0 0;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.mainmenu{
+    margin-top: 3px;
+    overflow: hidden;
+}
+.mainmenu ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.mainmenu ul li{
+    display: block;
+    float: left;
+}
+.mainmenu ul li a{
+    background: #818181 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-weight: 300;
+    margin-right: 2px;
+    padding: 5px;
+    text-decoration: none;
+}
+.mainmenu ul li a:hover{
+    background: #666;
+}
+.content-area{
+    border-bottom: 3px solid #c3c3c3;
+    border-top: 3px solid #c3c3c3;
+
+}
+.content-area h2{
+    text-align: center;
+    background: #ddd none repeat scroll 0 0;
+    border: 1px solid #c9c9c9;
+    color: #444;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    width: 450px;
+    height: auto;
+    margin-left: 220px;
+}
+.message{
+
+}
+
+.login-reg{
+    width: 350px;
+    background: #1a1a1a none repeat scroll 0 0;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+}
+input[type="text"],input[type="email"],input[type="password"]{
+    border:1px solid #d5d5d5;
+    margin-bottom: 6px;
+    margin-left: 10px;
+    width: 205px;
+    padding: 5px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: #888 none repeat scroll 0 0;
+    border:1px solid #626262;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 2px 5px;
+}
+input[type="submit"]:hover,input[type="reset"]:hover{
+    background: #333;
+}
+
+.footer-area a,h3{
+    color: #fff;
+    text-decoration: none;
+}
+
+.message{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.back{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
